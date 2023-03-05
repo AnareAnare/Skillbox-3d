@@ -45,6 +45,7 @@ img {
 
 body {
   min-width: 320px;
+  width: 100%;
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
