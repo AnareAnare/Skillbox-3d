@@ -127,13 +127,15 @@
   .header__nav {
     position: absolute;
     right: 0;
-    top: -14px;
+    top: 0;
     width: 320px;
     height: 100vh;
     z-index: 5;
     padding: 15px;
-    padding-top: 24px;
+    padding-top: 76px;
     background-color: #2f2c45;
+    -webkit-box-shadow: -20px 4px 20px 50px rgb(0 0 0 / 10%);
+    box-shadow: -20px 4px 20px 50px rgb(0 0 0 / 10%);
     overflow-y: auto;
     visibility: hidden;
     -webkit-transform: translateX(120%);
@@ -184,17 +186,12 @@
     bottom: 0;
   }
 
-  .stop-scroll {
-    overflow: hidden;
-  }
-
-
   .btn__close {
     -ms-flex-item-align: end;
     -ms-grid-row-align: end;
     align-self: end;
-    position: relative;
-    margin-bottom: 22px;
+    position: absolute;
+    top: 15px;
     width: 24px;
     height: 24px;
     border-radius: 0;

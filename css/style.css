@@ -87,12 +87,12 @@ body {
   margin: 0 auto;
 }
 
-.p-0 {
-  padding: 0;
+.stop-scroll {
+  overflow: hidden;
 }
 
-.btn__close {
-  display: none;
+.p-0 {
+  padding: 0;
 }
 
 .burger {
@@ -207,6 +207,10 @@ body {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+}
+
+.btn__close {
+  display: none;
 }
 
 .hero__title {
