@@ -143,11 +143,11 @@
     -webkit-transform: translateX(120%);
     -ms-transform: translateX(120%);
     transform: translateX(120%);
-    -webkit-transition: width 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-    transition: width 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-    -o-transition: width 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
-    transition: width 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
-    transition: width 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -webkit-transition: padding 0.3s ease-in-out, width 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    transition: padding 0.3s ease-in-out, width 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -o-transition: padding 0.3s ease-in-out, width 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: padding 0.3s ease-in-out, width 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: padding 0.3s ease-in-out, width 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
 
   .burger {
