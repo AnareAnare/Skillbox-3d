@@ -7,16 +7,16 @@
     const menuLinks = menu.querySelectorAll('.nav__link');
     burger.addEventListener('click', () => {
       menu.classList.add('header__nav_active');
-      html.classList.add('stop-scroll');
+      document.body.classList.add('stop-scroll');
     });
     closeMenu.addEventListener('click', () => {
       menu.classList.remove('header__nav_active');
-      html.classList.remove('stop-scroll');
+      document.body.classList.remove('stop-scroll');
     });
     menuLinks.forEach(el => {
       el.addEventListener('click', () => {
         menu.classList.remove('header__nav_active');
-        html.classList.remove('stop-scroll');
+        document.body.classList.remove('stop-scroll');
       });
     });
   });
